@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper || Simple</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container mx-auto py-5 ">
+        <nav class="nav-bar mx-auto flex flex-row items-center justify-between w-11/12 max-w-[800px] ">
+          <p class="title tracking-wider text-cyan-400 font-bold text-xl">Color Flipper</p>
+          <div class="links flex gap-5">
+            <a href="#" class="tracking-wider simple font-medium">Simple</a>
+            <a href="/hex.html" class="tracking-wider hex font-medium">Hex</a>
+          </div>
+          
+        </nav>
+      </div>
+    </div>
+    <main class="main h-screen flex justify-center items-center">
+      <div class="main-contents -mt-20 flex flex-col justify-center items-center  ">
+        <h2 class="tracking-wider p-3 px-4 mb-16 bg-black rounded-2xl text-white text-center bg-title text-4xl font-bold ">Background Color : <span class="hex-code color text-cyan-400">#f1f5f8</span></h2>
+        <button id="btn" class="click-me tracking-wider border-2 px-3 py-2 rounded-2xl border-black bg-black text-white hover:bg-transparent hover:text-black uppercase text-xl ">Click Me</button>
+      </div>
+
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
